@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop FrontEnd</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlaces navegacion__enlaces--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlaces" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React Js</h1>
+
+        <div class="camisa">
+            <img src="img/3.jpg" alt="" class="camisa__imagen">
+
+            <div class="camisa__contenido">
+                <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá
+                    con el contenido del texto de un sitio mientras que mira su diseño</p>
+
+
+
+                <form class="formulario" action="">
+
+                    <select class="formulario__campo">
+                        <option disabled selected value="">-- Seleccionar Talla --</option>
+                        <option value="">Chica</option>
+                        <option value="">Mediana</option>
+                        <option value="">Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <p class="footer__texto">frontEnd store 2021</p>
+    </footer>
+    
+</body>
+</html>
